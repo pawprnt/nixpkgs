@@ -17,10 +17,10 @@ buildPythonPackage {
   src = fetchFromGitHub {
     owner = "pawprnt";
     repo = "forager";
-    rev = "v0.5.1";
+    rev = "v0.5.2";
     # placeholder — first build will fail with "hash mismatch", nix will print
     # the actual hash. replace this line with the real hash and rebuild.
-    hash = "sha256-S//5mnmWn/C79i19txUqyhuz+VbiH6mM8OZK6QJBLTc=";
+    hash = "sha256-AeqIub5EhnRHCbSBq87CdW2afGbwBeg1h9IIdD9uDR4=";
   };
 
   build-system = [ setuptools ];
