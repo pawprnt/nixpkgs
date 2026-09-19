@@ -18,7 +18,7 @@ buildPythonPackage {
     owner = "pawprnt";
     repo = "forager";
     rev = "v0.5.1";
-    hash = "sha256-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=";
+    hash = "sha256-S//5mnmWn/C79i19txUqyhuz+VbiH6mM8OZK6QJBLTc=";
   };
 
   build-system = [ setuptools ];
