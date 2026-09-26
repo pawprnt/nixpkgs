@@ -9,10 +9,10 @@ buildGoModule {
   vendorHash = null;
 
   src = fetchFromGitHub {
-    owner = "foxinwinter";
+    owner = "pawprnt";
     repo = "prowl";
-    rev = "v1.0.0";
-    hash = "sha256-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=";
+    rev = "master";
+    hash = "sha256-U57hDoEeMhs4kXKgBNzG339oTHi9J9WI68byYIPChvg=";
   };
 
   ldflags = [
@@ -22,7 +22,7 @@ buildGoModule {
 
   meta = with lib; {
     description = "Comprehensive security research CLI tool with 175+ commands and 42+ scanner modules";
-    homepage = "https://github.com/foxinwinter/prowl";
+    homepage = "https://github.com/pawprnt/prowl";
     license = licenses.mit;
     mainProgram = "prowl";
   };
