@@ -12,7 +12,7 @@ buildGoModule {
     owner = "pawprnt";
     repo = "prowl";
     rev = "master";
-    hash = "sha256-U57hDoEeMhs4kXKgBNzG339oTHi9J9WI68byYIPChvg=";
+    hash = "sha256-Bohr1EcZxrYlGVdtRXSSW92jZPpNuvk/cMTPuNhj2qo=";
   };
 
   ldflags = [
